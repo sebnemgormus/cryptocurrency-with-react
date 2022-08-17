@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #1e352f;
+    color: white;
+    height: 80px;
+    border-bottom: 1px solid;
+    margin-top: 35px;
+}
+
+.footer_bar li {
+    float: left;
+    list-style-type: none;
+  }
+  
+  .footer_bar li a {
+    display: block;
+    color: #e5e5e5;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  

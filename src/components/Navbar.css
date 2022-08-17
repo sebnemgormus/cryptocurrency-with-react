@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    border-bottom: 1px solid #335145;
+}
+
+.navigation_bar li {
+    float: left;
+    list-style-type: none;
+  }
+  
+  .navigation_bar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation_bar li a:hover {
+    color: #bce784;
+  }
+ 
+.green {
+    color: #bce784;
+}
