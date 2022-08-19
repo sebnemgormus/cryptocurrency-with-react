@@ -14,8 +14,11 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
 
+
 const Coins = ({coins}) => {
 
+      
+//   const [coins, setCoins] = useState([])
   const [search, setSearch] = useState('');
 
   const handleChange = e => {
@@ -43,6 +46,20 @@ const Coins = ({coins}) => {
     },
   }));
 
+
+  
+//   const rows = [
+//     createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
+//     createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
+//     createData('Eclair', 262, 16.0, 24, 6.0),
+//     createData('Cupcake', 305, 3.7, 67, 4.3),
+//     createData('Gingerbread', 356, 16.0, 49, 3.9),
+//   ];
+
+//   const filteredCoins = coins.filter(coin =>
+//     coin.name.toLowerCase().includes(search.toLowerCase())
+//   );{}
+    // console.log(props.coins)
     return (
         <div className='container'>
             <div>
@@ -52,33 +69,35 @@ const Coins = ({coins}) => {
                     setSearch={setSearch}
                     handleChange={handleChange}
                 />
-                <TableContainer component={Paper}>
-                  <Table sx={{ minWidth: 200 }} aria-label="customized table">
-                    <TableHead>
-                      <TableRow>
-                        <StyledTableCell >#</StyledTableCell>
-                        <StyledTableCell >Coin</StyledTableCell>
-                        <StyledTableCell >Price</StyledTableCell>
-                        <StyledTableCell >24h</StyledTableCell>
-                        <StyledTableCell >24h Volume</StyledTableCell>
-                    </TableRow>
-                    </TableHead>
-                  </Table> 
-                </TableContainer> 
-                <TableBody >
+    <TableContainer component={Paper}>
+      <Table sx={{ minWidth: 200 }} aria-label="customized table">
+        <TableHead>
+          <TableRow>
+          <StyledTableCell >#</StyledTableCell>
+          <StyledTableCell >Coin</StyledTableCell>
+          <StyledTableCell >Price</StyledTableCell>
+          <StyledTableCell >24h</StyledTableCell>
+          <StyledTableCell >24h Volume</StyledTableCell>
+          </TableRow>
+        </TableHead>
+        </Table> 
+        
+   
         {coins
                 .filter((coin)=>coin.name.toLowerCase().includes(search.toLowerCase()))
                 .map(coins => {
-                    return (<TableRow>
+                    return (
+                    <StyledTableRow>
                         <Link to={`/coin/${coins.id}`} element={<Coin />} key={coins.id}>
-                          
                             <CoinItem coins={coins} />  
-                            
-                        </Link></TableRow>
+                        </Link>
+                    </StyledTableRow>
                     )
                 })}
-        </TableBody>
-           </div>
+       
+        </TableContainer> 
+    
+    </div>
     </div>
     )
 }
@@ -97,10 +116,12 @@ const Coins = ({coins}) => {
                         <Link to={`/coin/${coins.id}`} element={<Coin />} key={coins.id}>
                             <CoinItem coins={coins} />
                         </Link>
+
                     )
                 })}
             </div>
         </div>
     )
 }
+
 */}

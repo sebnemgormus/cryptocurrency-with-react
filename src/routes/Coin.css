@@ -15,10 +15,12 @@
 }
 
 .rank-btn {
-    border: 1px solid #335145;
-    background-color: #bce784;
+    border: 1px solid #2c5530;
+    background-color: #2c5530;
+    color:white;
     border-radius: 5px;
     padding: .4rem;
+    
 }
 
 .info {
@@ -36,6 +38,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-left: 1px solid black;
+
 }
 
 .info p {
@@ -52,8 +56,10 @@ td, th {
 }
 
 th {
-    background-color: #bce784;
+    background-color: #2c5530;
+    color: white;
     border-radius: 3px;
+    
 }
 
 .stats {

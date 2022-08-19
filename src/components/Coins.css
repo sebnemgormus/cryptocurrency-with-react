@@ -45,8 +45,7 @@
   background-color: #beef9e;
   margin: 2.2rem 0rem 0rem;
   padding: 0.7rem 3rem;
-  font-weight: 700;
-  
+  font-weight: 700; 
 }
 
 .coin-name {
@@ -68,11 +67,6 @@ color: black;
   border-top: 1px solid #335145;
   padding: 0.7rem 2rem;
   margin: 0;
-}
-
-.styled-table{
-color:pink;
-width: 1000%;
 }
 
 
