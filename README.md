@@ -1,6 +1,6 @@
 # Cryptocurrency Tracking Web Application
 
-Written using React.js, Material UI, and the CoinGecko API. An application where you can see the list of cryptocurrencies with current prices. You can also search for a coin within the list and access the coin detail pages.
+Written using React.js, Material UI, and CoinGecko API. An application where you can see the list of cryptocurrencies with current prices. You can also search for a coin within the list and access the coin detail pages.
 
 
 
@@ -24,6 +24,11 @@ Written using React.js, Material UI, and the CoinGecko API. An application where
 
 
 ![coinDetail](https://user-images.githubusercontent.com/63050857/185690092-62817699-ab7b-48b6-b4f1-76efb024a83d.png)
+
+
+
+
+![React-App-Google-Chrome-2022-08-19-21-18-19](https://user-images.githubusercontent.com/63050857/185692487-df41243e-8942-4591-b4ad-37683549299b.gif)
 
 
 
