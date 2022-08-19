@@ -3,18 +3,18 @@
 Written using React.js, Material UI, and the CoinGecko API. An application where you can see the list of cryptocurrencies with current prices. You can also search for a coin within the list and access the coin detail pages.
 
 
-⋅⋅* Coin List Page
-![coinList](https://user-images.githubusercontent.com/63050857/185689871-a9972d66-9ab6-468d-bb73-97e9dfe30bfc.png")
+Coin List Page
+![coinList](https://user-images.githubusercontent.com/63050857/185689871-a9972d66-9ab6-468d-bb73-97e9dfe30bfc.png)
 
 
 
-⋅⋅* Search Within The List
-![serach](https://user-images.githubusercontent.com/63050857/185690029-691f9271-99c3-4a07-8664-ab04a6aa2642.png")
+Search Within The List
+![serach](https://user-images.githubusercontent.com/63050857/185690029-691f9271-99c3-4a07-8664-ab04a6aa2642.png)
 
 
 
-⋅⋅* Coin Detail Page
-![coinDetail](https://user-images.githubusercontent.com/63050857/185690092-62817699-ab7b-48b6-b4f1-76efb024a83d.png")
+Coin Detail Page
+![coinDetail](https://user-images.githubusercontent.com/63050857/185690092-62817699-ab7b-48b6-b4f1-76efb024a83d.png)
 
 
 
