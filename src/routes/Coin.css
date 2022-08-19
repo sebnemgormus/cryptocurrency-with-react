@@ -1,3 +1,6 @@
+.coin-container {
+    margin-bottom: 100px;
+}
 .coin-container .content {
     max-width: 740px;
     margin: 1rem auto;
@@ -9,7 +12,6 @@
     border-radius: 8px;
 }
 
-
 .rank {
     margin: .5 0;
 }
@@ -19,8 +21,7 @@
     background-color: #2c5530;
     color:white;
     border-radius: 5px;
-    padding: .4rem;
-    
+    padding: .4rem;  
 }
 
 .info {
@@ -39,7 +40,6 @@
     align-items: center;
     justify-content: center;
     border-left: 1px solid black;
-
 }
 
 .info p {
@@ -48,6 +48,7 @@
 
 table {
     margin: .5rem 0;
+    
 }
 
 td, th {
@@ -58,8 +59,7 @@ td, th {
 th {
     background-color: #2c5530;
     color: white;
-    border-radius: 3px;
-    
+    border-radius: 3px;  
 }
 
 .stats {
@@ -78,8 +78,9 @@ th {
 }
 
 .stats .row p:first-child {
-    color: #bce784;
+    color: #bce784; 
 }
+
 
 .about h3 {
     margin: 1rem 0;

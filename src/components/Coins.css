@@ -1,6 +1,7 @@
 .container {
   max-width: 1140px;
   margin: auto;
+  margin-bottom: 150px;
 }
 
 .coin-app {
@@ -49,14 +50,14 @@
 }
 
 .coin-name {
-margin: auto;
-display: flex;
-justify-content: space-between;
-align-items: left;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
 }
 
 .coin-price {
-color: black;
+  color: black;
 }
 
 .coin-row {
@@ -69,17 +70,16 @@ color: black;
   margin: 0;
 }
 
-
-
 .coin-row:hover {
   background-color: #f6fff8;
   cursor: pointer;
 }
 
 img {
-height: 30px;
-width: 30px;
-margin-right: 10px;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+
 }
 
 .img-symbol {

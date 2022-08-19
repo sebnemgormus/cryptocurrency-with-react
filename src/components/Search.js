@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Search({ search, handleChange}) {
+function Search({ search, handleChange }) {
 
   return (
     <div className='coin-app'>
@@ -16,7 +16,7 @@ function Search({ search, handleChange}) {
           />
         </form>
       </div>
-  </div>
-);
+    </div>
+  );
 }
 export default Search;
